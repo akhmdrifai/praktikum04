@@ -24,4 +24,33 @@ int main(){
 	cout.setf(ios::fixed);
 	cout.setf(ios::showpoint);
 	cout.precision(4);
+	cout.setf(ios::fixed);
+	cout.setf(ios::showpoint);
+	cout.precision(4);
+ 	
+
+	mc[0]=max(a1c[0],max(a2c[0],a3c[0]));
+	mc[1]=max(a1c[1],max(a2c[1],a3c[1]));
+	mc[2]=max(a1c[2],max(a2c[2],a3c[2]));
+	mc[3]=max(a1c[3],max(a2c[3],a3c[3]));
+	mc[4]=max(a1c[4],max(a2c[4],a3c[4]));
+	
+
+	Ra1c[0]= (a1c[0]/mc[0]);
+	Ra1c[1]= (a1c[1]/mc[1]);
+	Ra1c[2]= (a1c[2]/mc[2]);
+	Ra1c[3]= (a1c[3]/mc[3]);
+	Ra1c[4]= (a1c[4]/mc[4]);
+	
+	Ra2c[0]= (a2c[0]/mc[0]);
+	Ra2c[1]= (a2c[1]/mc[1]);
+	Ra2c[2]= (a2c[2]/mc[2]);
+	Ra2c[3]= (a2c[3]/mc[3]);
+	Ra2c[4]= (a2c[4]/mc[4]);
+	
+	Ra3c[0] = (a3c[0]/mc[0]);
+	Ra3c[1] = (a3c[1]/mc[1]);
+	Ra3c[2] = (a3c[2]/mc[2]);
+	Ra3c[3] = (a3c[3]/mc[3]);
+	Ra3c[4] = (a3c[4]/mc[4]);
 }
